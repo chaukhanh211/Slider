@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <script src="owlcarousel/assets/jquery-3.5.1.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                815:{
+                    items:2
+                },
+                1000:{
+                    items:3
+                }
+            }
+             })
+        });
+    </script>
+    <style>
+        .wp-carousel {
+            width: 800px;
+            margin: 0px auto;
+        }
+    </style>
+    <div class="wp-carousel">
+        <h1 style="text-align: center;">Thêm slider vào website</h1>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <!-- Phần tử -->
+                <a href="">
+                    <img src="img/khung.jpg" alt="">
+                </a>
+            </div>
+            <div class="item">
+                <!-- Phần tử -->
+                <a href="">
+                    <img src="img/khung1.jpg" alt="">
+                </a>
+            </div>
+            <div class="item">
+                <!-- Phần tử -->
+                <a href="">
+                    <img src="img/khung2.jpg" alt="">
+                </a>
+            </div>
+            <div class="item">
+                <!-- Phần tử -->
+                <a href="">
+                    <img src="img/khung.jpg" alt="">
+                </a>
+            </div>
+            <div class="item">
+                <!-- Phần tử -->
+                <a href="">
+                    <img src="img/khung1.jpg" alt="">
+                </a>
+            </div>
+            <div class="item">
+                <!-- Phần tử -->
+                <a href="">
+                    <img src="img/khung2.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
